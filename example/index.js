@@ -1,5 +1,5 @@
-// var ikaloghub = require("ikaloghub");
-var ikaloghub = require("../lib");
+var ikaloghub = require("ikaloghub");
+// var ikaloghub = require("../lib");
 
 var emitter = ikaloghub.default();
 emitter.on("on_lobby_matched", handler);
